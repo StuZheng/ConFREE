@@ -4,6 +4,8 @@ This is the implementation of our paper: ConFREE: Conflict-free Client Update Ag
 
 
 
+- [Slides](./ConFREE_Poster.pdf)
+- [Poster](./Hao%20Zheng_ConFREE_AAAI2025_Oral.pdf)
 
 
 
