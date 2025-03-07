@@ -18,7 +18,7 @@ If you find ConFREE useful for your research, please consider citing our paper:
 
 
 ```
-
+![](./fig.png)
 ## 📦 Algorithms
 ConFREE projects conflicting updates onto a normal plane, creates a conflict-free guiding vector. The optimal is then found within a ball centered around conflict-free guiding vector, which maximizes the local improvement of the worst performing client in the neighborhood. This ensures the updated global model is closer to the global optimum and balances the update across clients.
 
