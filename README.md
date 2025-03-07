@@ -21,8 +21,10 @@ If you find ConFREE useful for your research, please consider citing our paper:
 ```
 
 ## 📦 Algorithms
-ConFREE projects conflicting updates onto a normal plane, creates a conflict-free guiding vector $$\Delta \bar{\theta}_{\perp}$$. The optimal $\Delta \theta^*$ is then found within a ball centered around $\Delta \bar{\theta}_{\perp}$, which maximizes the local improvement of the worst performing client in the neighborhood. This ensures the updated global model is closer to the global optimum $\theta^*_i_j$ and balances the update across clients.
-
+ConFREE projects conflicting updates onto a normal plane, creates a conflict-free guiding vector $$\Delta \bar{\theta}_{\perp} $$. The optimal $\Delta \theta^*$ is then found within a ball centered around $\Delta \bar{\theta}_{\perp}$, which maximizes the local improvement of the worst performing client in the neighborhood. This ensures the updated global model is closer to the global optimum $\theta^*_i_j$ and balances the update across clients.
+$$
+\Delta \bar{\theta}_{\perp}
+$$
 
 
 ## 📄 README
