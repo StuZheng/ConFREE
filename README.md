@@ -3,7 +3,6 @@
 This is the implementation of our paper: ConFREE: Conflict-free Client Update Aggregation for Personalized Federated Learning (AAAI 2025 Oral). ConFREE is the first method to address client update conflicts in PFL. By optimizing global model aggregation, it provides each client with more effective and comprehensive global information.
 
 
-ConFREE projects conflicting updates onto a normal plane, creates a conflict-free guiding vector $\Delta \bar{\theta}_{\perp}$. The optimal $\Delta \theta^*$ is then found within a ball centered around $\Delta \bar{\theta}_{\perp}$, which maximizes the local improvement of the worst performing client in the neighborhood. This ensures the updated global model is closer to the global optimum $\theta^*_i_j$ and balances the update across clients.
 
 
 
@@ -21,10 +20,8 @@ If you find ConFREE useful for your research, please consider citing our paper:
 ```
 
 ## 📦 Algorithms
-ConFREE projects conflicting updates onto a normal plane, creates a conflict-free guiding vector $$\Delta \bar{\theta}_{\perp} $$. The optimal $\Delta \theta^*$ is then found within a ball centered around $\Delta \bar{\theta}_{\perp}$, which maximizes the local improvement of the worst performing client in the neighborhood. This ensures the updated global model is closer to the global optimum $\theta^*_i_j$ and balances the update across clients.
-$$
-\Delta \bar{\theta}_{\perp}
-$$
+ConFREE projects conflicting updates onto a normal plane, creates a conflict-free guiding vector. The optimal is then found within a ball centered around conflict-free guiding vector, which maximizes the local improvement of the worst performing client in the neighborhood. This ensures the updated global model is closer to the global optimum and balances the update across clients.
+
 
 
 ## 📄 README
